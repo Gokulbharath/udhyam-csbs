@@ -81,7 +81,7 @@ const About = () => {
                   wordSpacing: 'normal'
                 }}
               >
-                UDHAYAM 26 is the flagship technical and cultural fest organized by the Department of CSBS at KIT, Coimbatore.
+                UDHAYAM 26 is the flagship technical and cultural fest organized  KIT - Coimbatore.
               </p>
               <ul className="space-y-2 text-gray-300 text-sm" style={{ fontFamily: 'Inter, sans-serif', lineHeight: '1.65' }}>
                 <li className="flex items-start">
