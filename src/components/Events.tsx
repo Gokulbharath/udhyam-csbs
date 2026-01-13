@@ -146,7 +146,7 @@ const Events = () => {
         { name: 'VIDHUNA V', year: 'II CSBS' },
         { name: 'THULASI', year: 'II CSBS' },
         { name: 'YAZHVIZHI', year: 'II CSBS' },
-        { name: 'Sub Coordinator 4', year: 'II CSBS' }
+        { name: 'AJAY A', year: 'II CSBS' }
       ],
       icon: <Briefcase size={24} className="text-amber-400" />,
       registrationLink: 'https://www.kitudhayam.in/public/events/109'
@@ -174,13 +174,13 @@ const Events = () => {
       ],
       coordinators: [
         { name: 'HARISH S', phone: '+91 93426 89636' },
-        { name: 'JEGAN S', phone: '+91 79046 40725' }
+        { name: 'HARTHI S', phone: '+91 90923  08408' }
       ],
       subCoordinators: [
+        { name: 'JEGAN S', year: 'III CSBS' },
         { name: 'KAVIYA S', year: 'II CSBS' },
         { name: 'JYOSHITHA T', year: 'II CSBS' },
-        { name: 'NAVAYUGAN A S', year: 'II CSBS' },
-        { name: 'AJAY A', year: 'II CSBS' }
+        { name: 'NAVAYUGAN A S', year: 'II CSBS' }
       ],
       icon: <Sparkles size={24} className="text-pink-400" />,
       registrationLink: 'https://www.kitudhayam.in/public/events/110'
