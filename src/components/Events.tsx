@@ -44,20 +44,20 @@ const Events = () => {
       ],
       coordinators: [
         { name: 'DEVANYA.N', phone: '+91 90427 41849' },
-        { name: 'VIGNESH KUMAR ', phone: '+91 77082 25919' }
+        { name: 'KOWSALYA S', phone: '+91 90436 18871' }
       ],
       subCoordinators: [
-        { name: 'GLACXY N', year: 'II CSBS' },
-        { name: 'SINEKA S', year: 'II CSBS' },
-        { name: 'TAMILVANAN M', year: 'II CSBS' },
-        { name: 'KAVIN KUMAR S', year: 'II CSBS' }
+        { name: 'ARAVIND', year: 'II CSBS' },
+        { name: 'ASHMITHA', year: 'II CSBS' },
+        { name: 'MITHRA', year: 'II CSBS' },
+        { name: 'SANDHIYA', year: 'II CSBS' }
       ],
       icon: <Code2 size={24} className="text-cyan-400" />,
       registrationLink: 'https://www.kitudhayam.in/public/events/106'
     },
     {
       id: 'thinknflow',
-      title: 'ThinkNFlow',
+      title: 'CodeCraft',
       description: 'A three-round coding competition testing your programming skills, debugging abilities, and blind coding expertise.',
       details: [
         'Round 1: Coding Quiz',
@@ -122,36 +122,35 @@ const Events = () => {
 
   const nonTechnicalEvents: Event[] = [
     {
-      id: 'biznxt',
-      title: 'BizNxt - Business Wars',
-      description: 'Test your business acumen and strategic thinking through three challenging rounds.',
-      details: [
-        'Team Size: Maximum 2 members',
-        '',
-        '3 Rounds:',
-        '  • Market Pulse',
-        '  • Brand Shock',
-        '  • Pitch Under Pressure',
-        '',
-        'Rules:',
-        '  • Negative marking for wrong answers',
-        '  • Final decision by quizmaster',
-        '  • Business knowledge essential'
-      ],
-      coordinators: [
-        { name: 'RUDRESH.M', phone: '+91 88258 50175' },
-        { name: 'RAJA.S', phone: '+91 88705 90708' }
-      ],
-      subCoordinators: [
-        { name: 'VIDHUNA V', year: 'II CSBS' },
-        { name: 'THULASI', year: 'II CSBS' },
-        { name: 'YAZHVIZHI', year: 'II CSBS' },
-        { name: 'AJAY A', year: 'II CSBS' }
-      ],
-      icon: <Briefcase size={24} className="text-amber-400" />,
-      registrationLink: 'https://www.kitudhayam.in/public/events/109'
-    },
-    {
+  id: 'biznxt',
+  title: 'BizNxt - Business Wars',
+  description: 'Test your business acumen and strategic thinking through three challenging rounds.',
+  details: [
+    'Team Size: Maximum 2 members',
+    '',
+    '3 Rounds:',
+    '  • Identify Logo, Tagline & CEO',
+    '  • Identify brands through iconic ad sounds',
+    '  • Pitch & create an advertisement for a product/service',
+    '',
+    'Rules:',
+    '  • Negative marking for wrong answers',
+    '  • Final decision by quizmaster'
+  ],
+  coordinators: [
+    { name: 'RUDRESH.M', phone: '+91 88258 50175' },
+    { name: 'RAJA.S', phone: '+91 88705 90708' }
+  ],
+  subCoordinators: [
+    { name: 'THULASI', year: 'II CSBS' },
+    { name: 'YAZHVIZHI', year: 'II CSBS' },
+    { name: 'SANJAY', year: 'II CSBS' },
+    { name: 'AJAY A', year: 'II CSBS' }
+  ],
+  icon: <Briefcase size={24} className="text-amber-400" />,
+  registrationLink: 'https://www.kitudhayam.in/public/events/109'
+},
+{
       id: 'come-play-confuse',
       title: 'Come Play Confuse',
       description: 'A fun and engaging stage activity where you pick random task cards and complete challenges.',
@@ -218,6 +217,7 @@ const Events = () => {
       elements.forEach((element) => {
         element.classList.remove('animate-fade-in');
         // Force reflow to ensure animation triggers
+        // eslint-disable-next-line @typescript-eslint/no-unused-expressions
         (element as HTMLElement).offsetHeight;
         observer.observe(element);
       });
