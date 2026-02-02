@@ -50,10 +50,9 @@ const Contact = () => {
             Staff Coordinators
           </h3>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
             {[
               { name: 'Mr. SURYA V', phone: '88381 08746' },
-              { name: 'Mr. MATHIVANAN P', phone: '98949 09566' },
               { name: 'Mr. TAMILARASU P', phone: '99944 83494' }
             ].map((staff, index) => (
               <div

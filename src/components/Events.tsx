@@ -126,7 +126,7 @@ const Events = () => {
   title: 'BizNxt - Business Wars',
   description: 'Test your business acumen and strategic thinking through three challenging rounds.',
   details: [
-    'Team Size: Maximum 2 members',
+    'Team Size: Maximum 3 members',
     '',
     '3 Rounds:',
     '  • Identify Logo, Tagline & CEO',
