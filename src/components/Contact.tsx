@@ -65,6 +65,13 @@ const Contact = () => {
                 <span>+91 88381 08746</span>
               </div>
             </div>
+            <div className="space-y-2 text-gray-300" style={{ fontFamily: 'Inter, sans-serif' }}>
+              <p className="font-semibold">Mr. SURYA V</p>
+              <div className="flex items-center gap-2">
+                <Phone size={16} className="text-cyan-400" />
+                <span>+91 88381 08746</span>
+              </div>
+            </div>
           </div>
 
           <div 
